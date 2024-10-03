@@ -1,0 +1,153 @@
+* {
+    font-family: cursive;
+
+
+}
+
+body {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+/* .lightMode{
+    background-color: var(--background-color);
+    color: var(--text-color);
+} */
+
+.darkMode {
+    background-color: black;
+    color: white;
+
+    button:padding {
+        background-color: black;
+    }
+}
+
+
+.heading {
+    /* brings Google text down   */
+    margin-top: 30%;
+    /* centers Google text  */
+    text-align: center;
+    /* finer adjustments to centralize Google text */
+    margin-left: 60px;
+    font-size: 70px;
+    letter-spacing: -6px;
+
+
+}
+
+/* makes changes to search bar  */
+/* width does not work with flex */
+div,
+.searchBar {
+    display: flex;
+    justify-content: center;
+    /* flex-basis changes width while using display: flex */
+    /* flex-basis: 400px; */
+    
+
+
+}
+
+
+
+
+/* makes changes to width of search bar */
+.searchBar {
+    width: 38em;
+
+}
+
+.searchBtn {
+    cursor: pointer;
+    /* adds space between input button and search bar */
+    margin-left: 8px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.searchBtn:hover {
+    cursor: pointer;
+
+}
+
+.navBtn {
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.topnav-left,
+button {
+    margin-top: 5px;
+    overflow: hidden;
+    /* aligns About, Store to the left */
+    float: left;
+}
+
+.topnav-right,
+button {
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    /* aligns Gmail, About, Darkmode to the right */
+    float: right;
+    margin: auto;
+    
+
+
+
+
+
+
+
+}
+
+#portfolio {
+    padding: none;
+    margin: none;
+
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 50px;
+    /* Set same as footer's height */
+}
+
+
+footer {
+    /* position cannot be changed */
+    position: absolute;
+    /* footer items start from the bottom */
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+
+/* make ids for both github and linkedin so both can be edited individually */
+#github {
+    color: black;
+    font-size: 30px;
+}
+
+#linkedin {
+    color: black;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+/* :hover is a built in pseudoclass in css, when user hovers over item */
+#github:hover {
+    border: 3px solid black;
+}
+
+#linkedin:hover {
+    border: 3px solid black;
+
+}

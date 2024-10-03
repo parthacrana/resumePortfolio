@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Google Mock</title>
+</head>
+<!-- after head tag, add header tag -->
+<header>
+    <header>
+        <div class="topnav-left">
+            <button class="navBtn">About</button>
+            <button class="navBtn">Store</button>
+        </div>
+        <div class="topnav-right">
+            <button onclick="portfolio()" id="portfolio">View Portfolio</button>
+            <button onclick="darkMode()" value="Dark Mode" id="darkMode">🌑</button>
+        </div>
+    </header>
+</header>
+
+
+<body>
+    <!-- wrap h1 tag in div tag so header doesnt get combined -->
+    <div>
+        <h1 class="heading">Googles</h1>
+    </div>
+
+    <div>
+        <div class="container">
+            <input class="searchBar" type="search" placeholder="Search Googles">
+            <button onclick="clickSearch()" class="searchBtn" id="inputYes">Search</button>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+<footer>
+    <div class="footer">
+        <div class="links">
+            <!-- github/linkedin icons require linked stylesheet at the top -->
+            <a class="fa fa-github" id="github" href="https://github.com/parthacrana"></a> <br>
+            <a class="fa fa-linkedin-square" id="linkedin" href="https://www.linkedin.com/in/partharana/"></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="index.js"></script>
+
+</html>
