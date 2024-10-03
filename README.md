@@ -12,13 +12,13 @@ this is my learning log, all the difficulties, obstacles, successes are all list
 
 future implementations: 
 
-darkmode 
+darkmode ✅
 catching different kinds of errors:
     if search bar is empty -- search for something msg 
     more to come...!!!
 set up routes 
 add different colors to google text
-adding ids to each letter 
+    -adding ids to each letter 
 working buttons via js 
 multiple pages via express/routes 
 use some kind of api 
@@ -40,6 +40,10 @@ day 2 8.29.2024 @ 11:59pm
 comments: 
 created another html page for my professional portfolio, incorporating js for now 
 
+day3 10.2.2024 @ 10:43pm
+![alt text]({9B60ABB3-BB23-49E0-A900-B8292A83712B}.png)
+comments: 
+added darkmode functionality to website...still need to fix some bugs...centering items is getting easier  
 
 
 
